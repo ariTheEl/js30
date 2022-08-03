@@ -1,0 +1,41 @@
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+    --border-radius:10%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.hl{
+    color: var(--base);
+}
+
+.controls{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: var(--base);
+    height: 18px;
+    width: 100%;
+}
+
+.imgdiv{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    border-radius: var(--border-radius);
+}
