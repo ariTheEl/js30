@@ -27,7 +27,7 @@ function displayMatches() {
             <span class='population'>${numberWithCommas(place.population)}</span>
         </li>`
     }).join('');
-    suggestions.innerHtml=html
+    suggestions.innerHTML=html
 }
 
 
