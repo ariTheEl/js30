@@ -1,0 +1,23 @@
+.inbox{
+    width: 50%;
+    margin: 0 25% 0 25%;
+    height: 75%;
+    padding: 40px;
+    line-height: 2.5px;
+    text-align: left;
+    background-color: #6feee4;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+input{
+    margin: 20px;
+}
+
+p{
+    line-height: 30px;
+    text-align: left;
+}
