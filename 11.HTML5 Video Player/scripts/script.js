@@ -8,7 +8,7 @@ const ranges = player.querySelectorAll('.player__slider');
 
 function togglePlay() {
    const method=video.paused ? "play" : "paused";
-   video[method];
+   video[method]();
    //replace line 11 with video[method]();
 }
 function updateButton(){
